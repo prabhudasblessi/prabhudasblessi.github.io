@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <form>
+            <label><b>First Name:</b></label>
+            <input type="text" name="fname" size="20"><br><br>
+
+            <label><b>Last Name:</b></label>
+            <input type="text" name="lname" size="20">
+            <br><br>
+
+            <label><b>Semester:</b></label>
+            <select name = "semester">
+                <option value="Select Semester">Select Semester</option>
+                <option value="1">I</option>
+                <option value="2">II</option>
+                <option value="3">III</option>
+                <option value="4">IV</option>
+                <option value="5">V</option>
+                <option value="6">VI</option>
+            </select>
+            <br><br>
+            
+            <label><b>Gender:</b></label><br>
+            <input type = "radio" id="female" name="gender">Female<br>
+            <input type = "radio" id="male" name="gender">Male<br>
+            <input type = "radio" id="other" name="gender">Other<br><br>
+            
+            <label><b>Subject:</b></label><br>
+            <input type = "checkbox" name="Software_Testing"><label>Software Testing</label><br>
+            <input type = "checkbox" name="Cloud_Computing"><label>Cloud Computing</label><br>
+            <input type = "checkbox" name="Advanced_Java"><label>Advanced Java</label><br>
+            <input type = "checkbox" name="English"><label>English</label><br>
+            <input type = "checkbox" name="Kannada"><label>Kannada</label><br>
+            <input type = "checkbox" name="mtlr"><label>MTLR</label><br>
+            <br>
+
+            <label><b>Phone Number:</b></label>
+            <input type="tel" name="phone_number" pattern="[0-9]{10}">
+            <br><br>
+
+            <button name="register" type="Submit" value="register">REGISTER</button>
+
+        </form>
+    </body>
+
+</html>
